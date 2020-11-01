@@ -21,7 +21,7 @@ spec:
         app: helloworld-wc1
     spec:
       containers:
-      - image: master.k8s.sshevtsov.playpit.by/helloworld-sshevtsov:ver-${BUILDVERSION}
+      - image: master.k8s.sshevtsov.playpit.by/helloworld-sshevtsov:-${BUILD_NUMBER}
         name: webapp
         ports:
           - containerPort: 8080
