@@ -72,7 +72,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-    - host: webapp1.k8s.mshnipau.playpit.by
+    - host: sshevtsov-app.k8s.sshevtsov.playpit.by
       http:
         paths:
         - path: /
