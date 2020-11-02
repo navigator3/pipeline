@@ -45,7 +45,7 @@ spec:
       imagePullSecrets:
       - name: myregistrykey1
       nodeSelector:
-        key: sonar
+        key: web
 
 ---
 apiVersion: v1
